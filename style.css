@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+  
+  
+  
+}
+.nav-link{
+    text-decoration:none;
+     font-weight: bolder;
+}
+.container-fluid h1{
+    font-size:px;
+    font-weight: bolder;
+    margin-left: 80px;
+    font-family: 'Dancing Script', cursive;
+    
+
+    
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    
+}
+.navbar-nav{
+    margin-left: 300px;
+
+}
+.nav-item{
+    font-size: 20px;
+   margin: 10px 8px;
+
+   
+}
+.nav-item a{
+color: white;
+}
+.nav-item a:hover{
+color: yellow;
+}
+
+
+img.d-block{
+height: 500px;
+
+}
+
+
+#home{
+    position: relative
+    
+}
+
+
+.detail-box{
+    position:relative;
+    margin-top:-400px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+   
+}
+.detail-box h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
+}
+#about{
+    margin-bottom:45px ;
+    width: 100%;
+}
+.image img{
+  height: 400px;
+   
+}
+#about{
+    position: relative;
+    margin-bottom: 45px;
+}
+.about_details h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: 15px;
+}
+.about_details{
+    position:relative;
+   margin-top: 20px;
+    text-align: center;
+    color:black;
+    font-weight: 20px;
+    text-align: justify;
+}
+#menu{
+    margin-bottom: 45px;
+    width: 100%;
+    
+   
+    background-image: url('./images/wall\ paper.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.heading h2{
+       position: relative;
+       
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 50px;
+        
+}
+
+.listitem{
+    display:inline-block;
+    list-style: none;
+    font-weight: bolder;
+    margin : 30px ;
+    
+    
+}
+.list{
+    margin-left: 390px;
+}
+.links{
+    text-decoration:none;
+    color: black;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+#pizza{
+    margin-top: 15%;
+}
+#cakes{
+    margin-top: 15%;
+}
+.layout_padding{
+   padding: 50px 0;
+}
+
+  .book_section{
+    background-image: url(./images/wall\ paper.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+  
+  .book_section .heading_container {
+    margin-bottom: 25px;
+    margin-left: 100px;
+    font-family: 'Dancing Script', cursive;
+    width: 250px;
+  }
+  
+  .book_section .form_container .form-control {
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    border: 1px solid #999;
+    outline: none;
+    color: #000000;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  
+  .form_container{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    width: 500px;
+    
+  }
+  
+  .book_section .form_container button {
+    margin-top: 15px;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 55px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .book_section .form_container button:hover {
+    background-color: #e69c00;
+  }
+  .footer {
+    background-color: #222831;
+    color: white;
+    padding: 75px 0 40px 0;
+    text-align: center;
+  }
+  
+  .footer h4 {
+    font-size: 28px;
+  }
+  
+  .footer h4,
+  .footer .footer-logo {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .footer p {
+    color: white;
+   
+  }
+  
+  .footer .footer-col {
+    margin-bottom: 30px;
+  }
+  
+  .footer .footer_contact .contact_link_box  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer .footer_contact  a {
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  
+  .footer .footer_contact .contact_link_box a i {
+    margin-right: 5px;
+  }
+  
+  
+  .footer .footer-logo {
+    display: block;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 1;
+    color:white;
+    
+  }
+  
+ 
+  .footer .footer_social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .footer_social a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color:rgb(30, 30, 50);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0 2.5px;
+    font-size: 18px;
+  }
+  
+  .footer .footer_social a:hover {
+    background-color: rgb(255, 191, 0);
+  }
+  
+  .footer .footer-info {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .footer .footer-info p {
+    color: white;
+    margin: 0;
+  }
+  
+  .footer .footer-info p a {
+    color: inherit;
+  }
+ #contact_us{
+  position: relative;
+  .contact_image img {
+    height: 650px;
+    margin-bottom: 100px;
+  } 
+
+    
+  }
+ 
+  #contact_us h2{
+   
+    
+    position:absolute;
+    margin-top:-440px;
+    margin-left: 360px;
+    color: rgb(161, 150, 47);
+    font-size: 55px;
+    
+    font-family: 'Dancing Script', cursive;
+  }
+   h3{
+    margin-left: 100px;
+    font-size: 25;
+    
+   }
+   h1{
+    margin-left: 50px ;
+   }
+   .safayz_details{
+    margin-bottom: 100px;
+   }
+   .map{
+    margin-bottom: 50px;
+   }
+ 
+   
